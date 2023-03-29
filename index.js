@@ -3,7 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const bodyParser = require('body-parser');
-const userRoutes = require("./routes/users");
+const userRoutes = require("./src/routes/users");
 
 // Load environment variables
 require("dotenv").config();
